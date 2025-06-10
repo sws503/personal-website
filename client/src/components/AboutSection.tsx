@@ -26,8 +26,8 @@ export default function AboutSection() {
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
             <img
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=800"
-              alt="Seokhyun Hwang"
+              src="/attached_assets/wooseok picture_1749556893495.jpeg"
+              alt="Wooseok Song"
               className="w-full max-w-md mx-auto rounded-2xl shadow-xl"
             />
           </motion.div>

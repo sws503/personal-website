@@ -16,7 +16,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 parallax"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080)',
+          backgroundImage: 'url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080)',
         }}
       />
       <div className="absolute inset-0 hero-overlay" />

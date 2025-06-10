@@ -84,8 +84,8 @@ export default function PublicationsSection() {
             Publications
           </h2>
           <img
-            src="https://images.unsplash.com/photo-1591115765373-5207764f72e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=300"
-            alt="Research Conference"
+            src="https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=300"
+            alt="AI Research Conference"
             className="w-full h-48 object-cover rounded-2xl mb-8 shadow-lg"
           />
         </motion.div>
