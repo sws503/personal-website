@@ -24,7 +24,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-primary text-white py-8">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <p className="opacity-75">&copy; 2025 Seokhyun Hwang. All rights reserved.</p>
+          <p className="opacity-75">&copy; 2025 Wooseok Song. All rights reserved.</p>
           <p className="opacity-75 mt-2">Designed with passion for research and innovation.</p>
         </div>
       </footer>

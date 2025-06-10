@@ -4,32 +4,25 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const activities = [
   {
+    title: 'Multi-Sensory Soundscape App (GIST)',
+    role: 'Project Lead',
+    period: '2023 – Present',
+    description: 'Leading DSP pipeline & personalisation logic development for smartphone sensor-based functional soundscape generation with 300ms latency optimization.',
+    side: 'left',
+  },
+  {
     title: 'GIST Society of Automotive Engineers',
     role: 'Founder',
-    period: 'Oct 2020 – Mar 2022',
-    description: 'Established GIST College Student Self-Created Automobile Club. Responsible for designing and manufacturing steering systems. Successfully secured over $10,000 in funding from GIST.',
-    side: 'left',
+    period: '2020 – 2022',
+    description: 'Founded automotive engineering club focusing on steering-system design. Successfully secured USD 10k grant for project development and club operations.',
+    side: 'right',
   },
   {
     title: 'GIST Broadcasting Station',
-    role: 'Founder & Filming/Editing Manager',
-    period: 'Mar 2019 – Nov 2020',
-    description: 'Established a video production station at GIST. Produced promotional videos for schools and student activities. Secured over $30,000 in funding from GIST.',
-    side: 'right',
-  },
-  {
-    title: 'GIST Student Creative Activity Support Initiative',
-    role: 'Team Leader',
-    period: 'Mar 2020 – Nov 2020',
-    description: 'Led COVID-19 Student Club Support Program. Focused on producing and distributing performance/activity videos. Secured over $4,500 in funding.',
+    role: 'Founder',
+    period: '2019 – 2020',
+    description: 'Built comprehensive video studio infrastructure at GIST. Managed video production operations and secured USD 30k grant for equipment and facility development.',
     side: 'left',
-  },
-  {
-    title: 'GIST Human Rights Center',
-    role: 'Research Intern',
-    period: 'Dec 2018 – Mar 2019',
-    description: 'Conducted research involving law, ethics, morality, and philosophy of law. Worked under the supervision of Advisor Kim, Gunoo.',
-    side: 'right',
   },
 ];
 

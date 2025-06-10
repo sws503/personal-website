@@ -57,11 +57,13 @@ export default function PublicationsSection() {
 
   const getTypeColor = (type: string) => {
     switch (type) {
-      case 'conference':
-        return 'bg-secondary text-white';
       case 'journal':
         return 'bg-primary text-white';
-      case 'workshop':
+      case 'conference':
+        return 'bg-secondary text-white';
+      case 'thesis':
+        return 'bg-accent text-white';
+      case 'patent':
         return 'bg-green-500 text-white';
       default:
         return 'bg-gray-500 text-white';
@@ -123,11 +125,6 @@ export default function PublicationsSection() {
               <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300 h-full">
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4 flex-wrap gap-2">
-                    {pub.award && (
-                      <Badge variant="destructive" className="text-sm font-medium">
-                        {pub.award}
-                      </Badge>
-                    )}
                     <Badge className={`text-sm ${getTypeColor(pub.type)}`}>
                       {pub.venue}
                     </Badge>

@@ -32,7 +32,7 @@ export default function ContactSection() {
           </h2>
           <p className="text-xl mb-8 opacity-90">
             I'm always interested in discussing research opportunities, collaborations, and
-            innovative ideas in VR/AR and HCI.
+            innovative ideas in on-device generative AI and Edge computing.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
@@ -40,9 +40,9 @@ export default function ContactSection() {
               asChild
               className="bg-white text-primary hover:bg-opacity-90 px-6 py-3 rounded-full transition duration-300 flex items-center"
             >
-              <a href="mailto:seokhyun@uw.edu">
+              <a href="mailto:wooseok.song@gist.ac.kr">
                 <Mail className="w-4 h-4 mr-3" />
-                seokhyun@uw.edu
+                wooseok.song@gist.ac.kr
               </a>
             </Button>
             <Button
@@ -65,9 +65,9 @@ export default function ContactSection() {
             >
               <h3 className="text-xl font-heading font-semibold mb-4">Current Affiliation</h3>
               <p className="opacity-90">
-                University of Washington<br />
-                Information School<br />
-                ACE Lab
+                Gwangju Institute of Science and Technology (GIST)<br />
+                AI Graduate School<br />
+                Ph.D. Candidate
               </p>
             </motion.div>
             <motion.div
@@ -77,9 +77,9 @@ export default function ContactSection() {
             >
               <h3 className="text-xl font-heading font-semibold mb-4">Research Interests</h3>
               <p className="opacity-90">
-                Virtual Reality<br />
-                Haptic Systems<br />
-                Human-Computer Interaction
+                On-Device Generative AI<br />
+                Model Compression<br />
+                Edge Computing
               </p>
             </motion.div>
             <motion.div
@@ -89,8 +89,8 @@ export default function ContactSection() {
             >
               <h3 className="text-xl font-heading font-semibold mb-4">Location</h3>
               <p className="opacity-90">
-                Seattle, WA<br />
-                United States
+                Gwangju<br />
+                South Korea
               </p>
             </motion.div>
           </div>

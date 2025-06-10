@@ -5,25 +5,32 @@ import { Trophy, Medal, GraduationCap } from 'lucide-react';
 
 const awards = [
   {
-    title: 'Best Paper Award',
-    venue: 'CHI 2025 Conference',
-    description: 'Top 1% of conference papers',
+    title: 'Hyundai Mobis Edge AI Grand Prize',
+    venue: '2024',
+    description: 'World-first in-car Edge generative AI infotainment system',
     icon: Trophy,
     color: 'bg-accent',
   },
   {
-    title: 'Honorable Mentions',
-    venue: 'CHI 2024 Conference',
-    description: 'Top 5% of conference papers',
+    title: 'StarCraft II AI Day Grand Prize',
+    venue: '2018 & 2023',
+    description: 'First place in AI competition (2 times)',
     icon: Medal,
     color: 'bg-secondary',
   },
   {
-    title: 'Fellowship',
-    venue: 'University of Washington',
-    description: 'Gell Mason Endowed Fellowship',
-    icon: GraduationCap,
+    title: 'Dream AI Open Challenge Mayor\'s Award',
+    venue: '2020',
+    description: 'Gwangju Mayor Award for Drama BGM AI',
+    icon: Trophy,
     color: 'bg-primary',
+  },
+  {
+    title: 'KIRD Science Content Competition 1st Place',
+    venue: '2021',
+    description: '"Wonder Dreamer" video content creation',
+    icon: Medal,
+    color: 'bg-secondary',
   },
 ];
 
