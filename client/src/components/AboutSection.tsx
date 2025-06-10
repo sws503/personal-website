@@ -41,19 +41,15 @@ export default function AboutSection() {
               About Me
             </h2>
             <p className="text-lg text-main mb-6 leading-relaxed">
-              Hi there! My name is Seokhyun (Shawn) Hwang, and I'm a{' '}
-              <strong>Ph.D. student in Information Science</strong> at the{' '}
-              <strong>University of Washington</strong> in the ACE Lab (Advisor: Jacob O. Wobbrock).
+              Hello! I'm <strong>Woo-Seok Song</strong>, a Ph.D. candidate in Artificial Intelligence at{' '}
+              <strong>Gwangju Institute of Science and Technology (GIST)</strong>, graduating in one semester.
             </p>
             <p className="text-lg text-main mb-6 leading-relaxed">
-              I completed my Master's degree in the Intelligent Robotics Program at Gwangju
-              Institute of Science and Technology, HCIS Lab (Advisor: SeungJun Kim) in Korea.
+              My research centres on <strong>on-device generative AI</strong>—model compression, personalised prompt optimisation, and real-time Edge deployment.
             </p>
             <p className="text-lg text-main mb-8 leading-relaxed">
-              My research interests lie in the field of Human-Computer Interaction and
-              Virtual/Augmented Reality systems. I am particularly interested in exploring the
-              interactions between humans and VR/AR systems, and how we can create more realistic
-              and immersive experiences through the use of hardware devices.
+              I specialize in generative model compression (KD, pruning, quantisation), prompt/GA personalisation, and real-time Edge/Embedded deployment. 
+              My goal is to work as an AI Research Engineer focusing on Generative AI & Model Optimisation.
             </p>
 
             <div className="flex flex-wrap gap-4">

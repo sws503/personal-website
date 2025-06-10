@@ -4,29 +4,17 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const educationData = [
   {
-    institution: 'University of Washington',
-    degree: 'Doctor of Philosophy (Ph.D.) - Information Science',
-    department: 'Information School',
-    period: 'Sep 2024 – Present',
-    status: 'Expected',
+    institution: 'Gwangju Institute of Science and Technology (GIST)',
+    degree: 'Doctor of Philosophy (Ph.D.) - Artificial Intelligence',
+    department: 'AI Graduate School',
+    period: 'Expected Feb 2026',
+    status: 'Ph.D. Candidate',
   },
   {
-    institution: 'Gwangju Institute of Science and Technology',
-    degree: 'Master of Science (M.S.) - Intelligent Robotics',
-    department: 'Institute of Integrated Technology',
-    period: 'Sep 2021 – Aug 2023',
-  },
-  {
-    institution: 'Boston University',
-    degree: 'Exchange Student',
-    department: '',
-    period: 'Jun 2018 – Aug 2018',
-  },
-  {
-    institution: 'Gwangju Institute of Science and Technology',
+    institution: 'Gwangju Institute of Science and Technology (GIST)',
     degree: 'Bachelor of Science (B.S.) - Mechanical Engineering',
     department: 'Department of Mechanical Engineering',
-    period: 'Mar 2017 – Aug 2021',
+    period: 'Completed',
   },
 ];
 

@@ -48,7 +48,7 @@ export default function Navigation() {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-heading font-bold text-primary">
-              Seokhyun Hwang
+              Wooseok Song
             </div>
             <div className="hidden md:flex space-x-8">
               {navItems.map((item) => (

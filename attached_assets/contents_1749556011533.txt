@@ -1,0 +1,77 @@
+# ABOUT ME
+
+Hello! I’m **Woo-Seok Song**, a Ph.D. candidate in Artificial Intelligence at **Gwangju Institute of Science and Technology (GIST)**, graduating in one semester.  
+My research centres on **on-device generative AI**—model compression, personalised prompt optimisation, and real-time Edge deployment.
+
+| Category | Details |
+|----------|---------|
+| **Degrees** | • Ph.D. in AI (expected Feb 2026), GIST<br>• B.S. in Mechanical Engineering, GIST |
+| **Target Role** | AI Research Engineer — Generative AI & Model Optimisation |
+| **Core Expertise** | Generative model compression (KD, pruning, quantisation) · Prompt/GA personalisation · Real-time Edge/Embedded deployment |
+| **Technical Stack** | Python · PyTorch · TensorFlow · CUDA · Flask · FFT/DSP |
+| **Additional Skills** | Reinforcement Learning · Computer Vision · Video editing (Premiere Pro, Final Cut) · Japanese (intermediate) · English (fluent) |
+| **Key Awards** | Hyundai Mobis Edge AI **Grand Prize** (2024) · StarCraft II AI Day **1st** (2018 & 2023) · Dream AI Open Challenge **Mayor’s Award** (2020) · KIRD Science Content Competition **1st** (2021) |
+
+*See more:*  
+[Research Projects](./research_projects.md) · [Publications](./publications.md) · [Activities](./activities.md)
+
+# RESEARCH PROJECTS
+
+## 1. On-Vehicle Generative AI Platform (Hyundai Mobis Grand Prize)
+- **Goal** World-first in-car Edge generative AI infotainment  
+- **Challenge** 24 TOPS NPU vs. Stable Diffusion requirements  
+- **Solution**  
+  - Visual CNN extracts road/weather/time “mood” features  
+  - KD + pruning: model size −60 %, latency −45 %  
+  - Multi-threaded feature-vector I/O; prompt templates for fast style shift  
+- **Outcome** Grand Prize; pilot at Hyundai Mobis HQ
+
+## 2. Multi-Sensory Soundscape App (GIST × Hyundai Motor, 2023 – present)
+- Smartphone sensors (audio, IMU) → personalised functional soundscape  
+- Feature-vector streaming; on-device DSP; 300 ms average latency
+
+## 3. NE Robotaxi Soundscape AI (Hyundai Motor, 2022 – 2023)
+- Real-time BGM adaptation for autonomous taxi; deployed on test fleet in US  
+- FFT noise filtering; LAI model distillation; driver survey satisfaction 82 %
+
+## 4. Office Soundscape AI (Hyundai Motor)
+- Single AWS t4g instance handles 200 req/min; 80 % user satisfaction
+
+## 5. GA-Driven Prompt Personalisation
+- Surrogate model + GA improves FID −18 %, compute −40 % (TCICT 2024)
+
+## 6. Diffusion Fine-Tuning for On-Device AI (Ph.D. dissertation)
+- LoRA + KD pipeline; Adreno 740 GPU renders 512×512 image in 1.2 s
+
+## 7. Real-Time Deepfake Metaverse Services (CJ OliveNetworks 2021)
+- Face-swap video chat; latency 90 ms; projection-mapping exhibition edition
+
+
+# PUBLICATIONS
+
+| Type | Title & Authors | Venue / Status |
+|------|-----------------|---------------|
+| Journal | *Interactive Prompt Permutation Optimisation for Personalised Image Generation* (1st) | **TCICT**, 2024 |
+| Poster | *Interactive GA Approach for Video Digest Suggestion* (Co-author) | **GECCO**, 2023 |
+| Thesis | *Diffusion Model Fine-Tuning for On-Device AI* (Solo) | Ph.D. Dissertation, in progress |
+| Patent | In-Car Soundscape Generative AI System | Filed 2024 |
+
+## Awards & Honours
+- Hyundai Mobis **Edge AI Grand Prize** (2024)  
+- KIRD Science-Technology Content Competition **1st Place** (2021) – “Wonder Dreamer” video  
+- Dream AI Open Challenge Culture Content **1st Place** / Gwang-ju Mayor Award (2020) – Drama BGM AI  
+- StarCraft II AI Day **Grand Prize** (2018, 2023)  
+- GIST Excellent Paper Award (2020)  
+- Outstanding Bachelor’s Research Award **3rd Place** (2019)
+
+# ACTIVITIES
+
+| Period | Activity | Role & Highlights |
+|--------|----------|-------------------|
+| 2023 – present | Multi-Sensory Soundscape App (GIST) | Project Lead • DSP pipeline & personalisation logic |
+| 2020 – 2022 | GIST Society of Automotive Engineers | Founder • Steering-system design • USD 10 k grant |
+| 2019 – 2020 | GIST Broadcasting Station | Founder • Built video studio • USD 30 k grant |
+
+
+> **Skill Highlights**  
+> Project leadership · Edge AI deployment · DSP & audio processing · Video production · Cross-disciplinary communication

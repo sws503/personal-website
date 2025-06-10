@@ -8,41 +8,41 @@ import { Brain, Scan, Users, ExternalLink, ArrowRight } from 'lucide-react';
 const researchGoals = [
   {
     icon: Brain,
-    title: 'Intuitive Systems',
-    description: 'Crafting Intuitive Systems for Unique Sensory Experiences',
+    title: 'On-Device AI',
+    description: 'Model compression, personalized prompt optimization, and real-time Edge deployment',
     color: 'bg-secondary',
   },
   {
     icon: Scan,
-    title: 'VR & Haptic Innovation',
-    description: 'Merging Virtual Reality and Human Sensation with Cutting-Edge Haptic Innovations',
+    title: 'Generative Models',
+    description: 'Knowledge distillation, pruning, and quantization for mobile deployment',
     color: 'bg-accent',
   },
   {
     icon: Users,
-    title: 'Human Interaction',
-    description: 'Creating Value through the Fusion of Virtual Environments and Human Interaction',
+    title: 'Edge Computing',
+    description: 'Real-time AI systems for automotive and embedded applications',
     color: 'bg-primary',
   },
 ];
 
 const featuredResearch = [
   {
-    title: 'TelePulse',
-    description: 'Enhancing the Teleoperation Experience through Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality',
-    image: 'https://images.unsplash.com/photo-1593508512255-86ab42a8e620?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
+    title: 'On-Vehicle Generative AI Platform',
+    description: 'World-first in-car Edge generative AI infotainment with 24 TOPS NPU optimization. Visual CNN extracts road/weather/time features with KD + pruning achieving 60% model size reduction and 45% latency improvement.',
+    image: 'https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
     badges: [
-      { text: '🏆 Best Paper', variant: 'destructive' as const },
-      { text: 'CHI 2025', variant: 'secondary' as const },
+      { text: '🏆 Hyundai Mobis Grand Prize', variant: 'destructive' as const },
+      { text: '2024', variant: 'secondary' as const },
     ],
   },
   {
-    title: 'ErgoPulse',
-    description: 'Electrifying Your Lower Body With Biomechanical Simulation-based Electrical Muscle Stimulation Haptic System in Virtual Reality',
-    image: 'https://images.unsplash.com/photo-1626387346567-c2b3f4b8b0aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
+    title: 'Multi-Sensory Soundscape App',
+    description: 'GIST × Hyundai Motor collaboration. Smartphone sensors (audio, IMU) generate personalized functional soundscape with feature-vector streaming and on-device DSP achieving 300ms average latency.',
+    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
     badges: [
-      { text: '🏆 Honorable Mention', variant: 'destructive' as const },
-      { text: 'CHI 2024', variant: 'secondary' as const },
+      { text: 'GIST × Hyundai Motor', variant: 'secondary' as const },
+      { text: '2023 – Present', variant: 'outline' as const },
     ],
   },
 ];
@@ -124,10 +124,10 @@ export default function ResearchSection() {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-6">
-              Featured Research
+              Research Projects
             </h2>
             <p className="text-xl text-main max-w-3xl mx-auto">
-              Cutting-edge research in VR/AR systems, haptic feedback, and human-computer interaction
+              Cutting-edge research in on-device generative AI, model compression, and Edge deployment
             </p>
           </motion.div>
 

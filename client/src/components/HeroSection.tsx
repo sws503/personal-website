@@ -28,13 +28,13 @@ export default function HeroSection() {
           transition={{ duration: 0.8, ease: 'easeOut' }}
         >
           <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 leading-tight">
-            Hello, I'm <span className="text-secondary">Seokhyun Hwang</span>
+            Hello, I'm <span className="text-secondary">Wooseok Song</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90 font-light">
-            Ph.D. Student in Information Science at University of Washington
+            Ph.D. Candidate in Artificial Intelligence at GIST
           </p>
           <p className="text-lg md:text-xl mb-12 opacity-80 max-w-3xl mx-auto leading-relaxed">
-            Crafting Intuitive Systems for Unique Sensory Experiences • Merging Virtual Reality and Human Sensation with Cutting-Edge Haptic Innovations
+            Specializing in On-Device Generative AI • Model Compression & Real-Time Edge Deployment
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button

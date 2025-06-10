@@ -7,56 +7,41 @@ import { Button } from '@/components/ui/button';
 
 const publications = [
   {
-    title: 'TelePulse: Enhancing Teleoperation Experience',
-    description: 'Biomechanical Simulation-Based Electrical Muscle Stimulation in Virtual Reality',
-    authors: 'Hwang, S., Kang, S., Oh, J., Park, J., Shin, S., Luo, Y., DelPreto, J., Lee, S., Lee, K., Matusik, W., Rus, D., Kim, S.',
-    venue: 'CHI 2025',
-    type: 'conference',
-    award: 'Best Paper',
-  },
-  {
-    title: 'I Want to Break Free',
-    description: 'Enabling User-Applied Active Locomotion in In-Car VR through Contextual Cues',
-    authors: 'Gim, B., Hwang, S., Kang, S., Kim, G., Yeo, D., Kim, S.',
-    venue: 'CHI 2025',
-    type: 'conference',
-  },
-  {
-    title: 'Adaptive Walker',
-    description: 'User Intention and Environmentally Aware Intelligent Walker with High-resolution Tactile and IMU Sensor',
-    authors: 'Choi, Y., Hwang, S., Moon, J., Lee, H., Yeo, D., Seong, M., Luo, Y., Kim, S., Matusik, W., Rus, D., Kim, K',
-    venue: 'ICRA 2025',
-    type: 'conference',
-  },
-  {
-    title: 'ErgoPulse',
-    description: 'Electrifying Your Lower Body With Biomechanical Simulation-based Electrical Muscle Stimulation',
-    authors: 'Hwang, S., Oh, J., Kang, S., Seong, M., Elsharkawy, A., and Kim, S.',
-    venue: 'CHI 2024',
-    type: 'conference',
-    award: 'Honorable Mention',
-  },
-  {
-    title: 'Evaluation of Visual, Auditory, and Olfactory Stimulus-Based Attractors',
-    description: 'For Intermittent Reorientation in Virtual Reality Locomotion',
-    authors: 'Lee, J., Hwang, S., Kim, K., and Kim, S.',
-    venue: 'Virtual Reality',
+    title: 'Interactive Prompt Permutation Optimisation for Personalised Image Generation',
+    description: 'First author research on prompt optimization using genetic algorithms for personalized AI image generation',
+    authors: 'Song, W. et al.',
+    venue: 'TCICT 2024',
     type: 'journal',
   },
   {
-    title: 'Framework for Enhancing Teleoperation Experience',
-    description: 'With Biomechanical Simulation-Based Electrical Muscle Stimulation in VR',
-    authors: 'Hwang, S., Kang, S., Oh, J., Park, J., Shin, S., Luo, Y., DelPreto, J., Matusik, W., Rus, D., and Kim, S.',
-    venue: 'UbiComp 2024',
-    type: 'workshop',
+    title: 'Interactive GA Approach for Video Digest Suggestion',
+    description: 'Co-author research on genetic algorithm applications for video content optimization',
+    authors: 'Co-authored with research team',
+    venue: 'GECCO 2023',
+    type: 'conference',
+  },
+  {
+    title: 'Diffusion Model Fine-Tuning for On-Device AI',
+    description: 'Solo Ph.D. dissertation research on optimizing diffusion models for mobile deployment',
+    authors: 'Song, W.',
+    venue: 'Ph.D. Dissertation',
+    type: 'thesis',
+  },
+  {
+    title: 'In-Car Soundscape Generative AI System',
+    description: 'Patent filing for automotive AI soundscape technology developed for Hyundai Mobis',
+    authors: 'Song, W. et al.',
+    venue: 'Patent Filing 2024',
+    type: 'patent',
   },
 ];
 
 const filterOptions = [
   { id: 'all', label: 'All' },
-  { id: 'conference', label: 'Conference' },
   { id: 'journal', label: 'Journal' },
-  { id: 'workshop', label: 'Workshop' },
+  { id: 'conference', label: 'Conference' },
+  { id: 'thesis', label: 'Thesis' },
+  { id: 'patent', label: 'Patent' },
 ];
 
 export default function PublicationsSection() {
