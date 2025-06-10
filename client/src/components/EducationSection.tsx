@@ -48,19 +48,26 @@ export default function EducationSection() {
               <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <CardContent className="p-8">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-                    <div>
-                      <h3 className="text-2xl font-heading font-semibold text-primary mb-2">
-                        {edu.institution}
-                      </h3>
-                      <p className="text-lg text-secondary font-medium">
-                        {edu.degree}
-                        {edu.status && (
-                          <span className="text-accent ml-2">({edu.status})</span>
+                    <div className="flex items-start gap-4">
+                      <img
+                        src="/attached_assets/gist1993_logo_1749556996294.jpeg"
+                        alt="GIST Logo"
+                        className="w-16 h-16 object-contain rounded-lg bg-gray-50 p-2"
+                      />
+                      <div>
+                        <h3 className="text-2xl font-heading font-semibold text-primary mb-2">
+                          {edu.institution}
+                        </h3>
+                        <p className="text-lg text-secondary font-medium">
+                          {edu.degree}
+                          {edu.status && (
+                            <span className="text-accent ml-2">({edu.status})</span>
+                          )}
+                        </p>
+                        {edu.department && (
+                          <p className="text-main">{edu.department}</p>
                         )}
-                      </p>
-                      {edu.department && (
-                        <p className="text-main">{edu.department}</p>
-                      )}
+                      </div>
                     </div>
                     <div className="text-accent font-medium mt-4 md:mt-0">
                       {edu.period}

@@ -30,7 +30,7 @@ const featuredResearch = [
   {
     title: 'On-Vehicle Generative AI Platform',
     description: 'World-first in-car Edge generative AI infotainment with 24 TOPS NPU optimization. Visual CNN extracts road/weather/time features with KD + pruning achieving 60% model size reduction and 45% latency improvement.',
-    image: 'https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
     badges: [
       { text: '🏆 Hyundai Mobis Grand Prize', variant: 'destructive' as const },
       { text: '2024', variant: 'secondary' as const },
@@ -39,7 +39,7 @@ const featuredResearch = [
   {
     title: 'Multi-Sensory Soundscape App',
     description: 'GIST × Hyundai Motor collaboration. Smartphone sensors (audio, IMU) generate personalized functional soundscape with feature-vector streaming and on-device DSP achieving 300ms average latency.',
-    image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
+    image: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=400',
     badges: [
       { text: 'GIST × Hyundai Motor', variant: 'secondary' as const },
       { text: '2023 – Present', variant: 'outline' as const },
