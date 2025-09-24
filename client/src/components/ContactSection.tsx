@@ -40,9 +40,9 @@ export default function ContactSection() {
               asChild
               className="bg-white text-primary hover:bg-opacity-90 px-6 py-3 rounded-full transition duration-300 flex items-center"
             >
-              <a href="mailto:wooseok.song@gist.ac.kr">
+              <a href="mailto:wooseok503@gm.gist.ac.kr">
                 <Mail className="w-4 h-4 mr-3" />
-                wooseok.song@gist.ac.kr
+                wooseok503@gm.gist.ac.kr
               </a>
             </Button>
             <Button
